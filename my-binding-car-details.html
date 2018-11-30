@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>车辆详情</title>
+	<script src="js/pace.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pace-theme-barber-shop.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/my-binding-car-details.css">
+</head>
+<body>
+	<header id="header" class="center">
+		输入车辆车牌号
+	</header><!-- /header -->
+	<article>
+		<div class="car-color">
+			<select name="" class="padding2 plate-color">
+				<option value="1">白色</option>
+				<option value="2">蓝色</option>
+				<option value="3">黑色</option>
+				<option value="4">黑色12</option>
+				<option value="5">黑色232</option>
+				<option value="6">黑色43454</option>
+			</select>
+		</div>
+		<div class="input flex ju-ce">
+			<div class="pawDiv"><p class="paw province"></p></div>
+				<div class="pawDiv"><p class="paw city"></p></div>
+				<div class="pawDiv"><p class="paw"></p></div>
+				<div class="pawDiv"><p class="paw"></p></div>
+				<div class="pawDiv"><p class="paw"></p></div>
+				<div class="pawDiv"><p class="paw"></p></div>
+				<div class="pawDiv"><p class="paw"></p></div>
+		</div>
+		<div class="upload">
+			<div class="flex ju-sb">
+				<p><img src="img/car-img.png" alt="" id="front-img"></p>
+				<p><img src="img/car-img.png" alt="" id='after-img'></p>
+			</div>
+			<div class="flex ju-sb upload-btn">
+				<p class="center"><input type="file" id='front'> <span>上传前车图片</span></p>
+				<p class="center"><input type="file" id='after'> <span>上传后车图片</span></p>
+			</div>
+		</div>
+	</article>
+	
+	<footer class="center">
+		<span class="binding">确认绑定</span>
+	</footer>
+
+	<!-- 模态框 -->
+	<div class='modal-box flex ju-ce al-ce'>
+		<div class='modal-code background-white center padding4'>
+			<div class="right">
+				<img src="img/hid.png" alt="" class="close">
+			</div>
+			<div>
+				绑定车辆确认手机号
+			</div>
+			<div class="tel">
+				18116603973
+			</div>
+			<div class="input flex ju-ce">
+				<div class="pawDiv-code"><input type="number" oninput="if(value.length>1)value=value.slice(0,1)" class="modal-paw"></div>
+				<div class="pawDiv-code"><input type="number" oninput="if(value.length>1)value=value.slice(0,1)" class="modal-paw"></div>
+				<div class="pawDiv-code"><input type="number" oninput="if(value.length>1)value=value.slice(0,1)" class="modal-paw"></div>
+				<div class="pawDiv-code"><input type="number" oninput="if(value.length>1)value=value.slice(0,1)" class="modal-paw"></div>
+			</div>
+			<div>
+				<button type="" class="send">发送验证码</button>
+			</div>
+		</div>
+	</div>
+	<!-- 弹框(省份输入) -->
+	<div class="modal hidden">
+		<div class="modal-header flex">
+			<p class="modal-rec">川</p>
+			<p class="modal-rec">渝</p>
+			<p class="modal-del"><img src="img/del.png" alt="" class="del-icon"></p>
+		</div>
+		<div class="modal-data">
+			<p class="flex">
+				<span>川</span>
+				<span>渝</span>
+				<span>京</span>
+				<span>津</span>
+				<span>翼</span>
+				<span>晋</span>
+				<span>蒙</span>
+			</p>
+			<p class="flex">
+				<span>辽</span>
+				<span>吉</span>
+				<span>黑</span>
+				<span>沪</span>
+				<span>苏</span>
+				<span>浙</span>
+			</p>
+			<p class="flex">
+				<span>皖</span>
+				<span>闽</span>
+				<span>赣</span>
+				<span>鲁</span>
+				<span>豫</span>
+				<span>鄂</span>
+				<span>湘</span>
+			</p>	
+			<p class="flex">
+				<span>粤</span>
+				<span>桂</span>
+				<span>琼</span>
+				<span>贵</span>
+				<span>云</span>
+				<span>藏</span>
+			</p>	
+			<p class="flex">
+				<span>陕</span>
+				<span>甘</span>
+				<span>青</span>
+				<span>宁</span>
+				<span>新</span>
+				<span class="paddingLR7">粤Z 港</span>
+			</p>
+			<p class="flex">
+				<span class="paddingLR7">粤Z 澳</span>
+				<span>台</span>
+				<span class="paddingLR7">其他</span>
+			</p>
+		</div>
+	</div>
+	<!-- 弹框（市输入） -->
+	<div class="modal-city hidden">
+		<div class="modal-header flex">
+			<p class="modal-city-rec">A</p>
+			<p class="modal-city-rec">F</p>
+			<p class="modal-del"><img src="img/del.png" alt="" class="del-icon"></p>
+		</div>
+		<div class="modal-data">
+			<p class="flex">
+				<span>A</span>
+				<span>B</span>
+				<span>C</span>
+				<span>D</span>
+				<span>E</span>
+				<span>F</span>
+				<span>G</span>
+			</p>
+			<p class="flex">
+				<span>H</span>
+				<span>I</span>
+				<span>J</span>
+				<span>K</span>
+				<span>L</span>
+				<span>M</span>
+			</p>
+			<p class="flex">
+				<span>N</span>
+				<span>O</span>
+				<span>P</span>
+				<span>Q</span>
+				<span>R</span>
+				<span>S</span>
+				<span>T</span>
+			</p>	
+			<p class="flex">
+				<span>U</span>
+				<span>V</span>
+				<span>W</span>
+				<span>X</span>
+				<span>Y</span>
+				<span>Z</span>
+			</p>	
+		</div>
+	</div>
+	<!-- 弹框（车牌号输入） -->
+	<div class='modal-number padding2 hidden'>
+		<p class="numeric-key flex ju-sb last-box">
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+			<span class="last del"><img src="img/del.png" alt="" class="del-icon"></span>
+		</p>
+		<p class="numeric-key flex ju-sb">
+			<span>5</span>
+			<span>6</span>
+			<span>7</span>
+			<span>8</span>
+			<span>9</span>
+			<span>0</span>
+		</p>
+		<p class="alphabet flex ju-sb">
+			<span>A</span>
+			<span>B</span>
+			<span>C</span>
+			<span>D</span>
+			<span>E</span>
+			<span>F</span>
+			<span>G</span>
+			<span>H</span>
+		</p>	
+		<p class="alphabet flex ju-sb">
+			<span>J</span>
+			<span>K</span>
+			<span>L</span>
+			<span>M</span>
+			<span>N</span>
+			<span>P</span>
+			<span>Q</span>
+			<span>R</span>
+		</p>
+		<p class="alphabet flex ju-sb">
+			<span>S</span>
+			<span>T</span>
+			<span>U</span>
+			<span>V</span>
+			<span>W</span>
+			<span>X</span>
+			<span>Y</span>
+			<span>Z</span>
+		</p>
+		<p class="alphabet flex ju-sb last-box">
+			<span>学</span>
+			<span>挂</span>
+			<span>港</span>
+			<span>澳</span>
+			<span>警</span>
+			<span>领</span>
+			<span class="con">确认</span>
+		</p>
+	</div>
+	<!-- 短信验证码 -->
+	<script src='js/tel-code.js'></script>
+	<script type="text/javascript" src='js/input-box.js'></script>
+	<script src='js/my-binding-car-details.js'></script>
+</body>
+</html>

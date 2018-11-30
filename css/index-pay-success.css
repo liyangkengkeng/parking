@@ -1,0 +1,25 @@
+body{
+	width: 100vw;
+	min-height: 100vh;
+}
+
+.box{
+	width: 80%;
+	margin-top: 15vh;
+	font-size: 1rem
+}
+.box img{
+	width: 100%;
+	margin-bottom: 5vh
+}
+.go-back{
+	width: 50%;
+	margin:5vh auto 0vh;
+	text-align: center;
+	background: #67C1BF;
+	padding: 2vh 0vw;
+	border-radius: 2vw;
+}
+.go-back a{
+	color: #fff;
+}

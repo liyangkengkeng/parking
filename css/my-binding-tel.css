@@ -1,0 +1,75 @@
+.box{
+	font-size: 1rem;
+}
+
+.binding{
+	margin:15vh 0vh 4vh;
+}
+
+
+.input{
+	margin:4vh 0vh;
+}
+.pawDiv{
+	margin-right: 3vw;
+}
+.input div:last-child{
+	margin-right: 0vw;
+}
+
+
+.tel input{
+	display: inline-block;
+	width: 60vw;
+	border:1px solid #e8e8e8;
+	border-radius: 2vw;
+	padding:2vh 0vh;
+}
+.code{
+	width: 60vw;
+	border-radius: 2vw;
+	padding:2vh 0vh;
+	background:#67C1BF;
+	color: #fff;
+	margin:auto;
+	border:0px;
+	outline: none
+}
+/*.code a{
+	color: #fff;
+	display: inline-block;
+	width: 100%;height: 100%;
+}*/
+.footer-img{
+	width: 80vw;
+	border-radius: 2vw;
+	margin:15vh auto 0vh;
+	overflow: hidden;
+}
+.footer-img img{
+	width: 100%
+}
+
+.send{
+	margin-bottom: 3vh
+}
+.send button{
+	border:0px;
+	background:transparent;
+}
+/*弹框*/
+.modal{
+	width: 90vw;
+}
+.modal input{
+	width: 50vw;
+	height: 35px;line-height: 35px;
+	margin-right: 2vw;
+}
+.modal-code{
+	margin-left: 5vw;
+	width: 35vw;
+}
+.modal-confirm{
+	margin-top: 5vh
+}

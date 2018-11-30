@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>我的车辆</title>
+	<script src="js/pace.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pace-theme-barber-shop.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/my-car-details.css">
+	<script src='js/ajax.js'></script>
+</head>
+<body>
+	<header id="header">
+		<div class="padding2 flex header-box">
+			<div class="header-img"><img src='img/car.png' /></div>
+			<div class="header-data flex ju-sb">
+				<div class="flex ju-sb">
+					<div class="flex ju-sb car-data">
+						<p class="number marginLR1"><span>川F · 12345</span></p>
+						<p class="">别克</p>
+						<p class="color67">绑定时间：2011/11/11</p>
+					</div>
+					<div class="flex ju-sb car-data">
+						<p class="relieve center">解绑</p>
+						<p class="color67">已停车：100次</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- /header -->
+	<article class="padding2">
+		<div class="total-data flex ju-sb">
+			<div class="parking flex al-ce ju-ce">
+				<p>停车</p>
+				<p>111</p>
+			</div>
+			<div class="save flex al-ce ju-ce">
+				<p>节省</p>
+				<p>￥10</p>
+			</div>
+			<div class="coupon-card flex al-ce ju-ce">
+				<p>优惠卡</p>
+				<p>2</p>
+			</div>
+		</div>
+		<div class="card flex">
+				<div class="card-header flex ju-sb">
+					<p><img src="img/volume-logo.png" alt=""><span>XX停车优惠卡</span> </p>
+					<p>HellowParking</p>
+				</div>
+				<div class="card-number">
+					88888 88888 88888
+				</div>
+				<div class="card-footer">
+					购买停车卡立享优惠
+				</div>
+				<img src="img/my-card-use.png" alt="" class="use-icon">
+		</div>
+		<div class="buy center">
+			<a href="my-wallet-details.html" title="">查看更多</a>
+		</div>
+		<div class="car">
+			<div class="car-img">
+				<p>车辆正面</p>
+				<p><img src="img/car-front.png" alt=""></p>
+			</div>
+			<div class="car-img">
+				<p>车辆后面</p>
+				<p><img src="img/car-behind.png" alt=""></p>
+			</div>
+		</div>
+	</article>
+	
+
+	<div class='confirm center'>
+		<p>是否解绑</p>
+		<p><button class="yes">是</button><button type="" class='no'>否</button> </p>
+	</div>
+
+	<!-- 模态框 -->
+	<div class='modal-box flex ju-ce al-ce'>
+		<div class='modal-code background-white center padding4'>
+			<div class="right">
+				<img src="img/hid.png" alt="" class="close">
+			</div>
+			<div>
+				绑定车辆确认手机号
+			</div>
+			<div class="tel">
+				18116603973
+			</div>
+			<div class="input flex ju-ce">
+				<div class="pawDiv-code"><input type="number" oninput="if(value.length>1)value=value.slice(0,1)" class="modal-paw"></div>
+				<div class="pawDiv-code"><input type="number" oninput="if(value.length>1)value=value.slice(0,1)" class="modal-paw"></div>
+				<div class="pawDiv-code"><input type="number" oninput="if(value.length>1)value=value.slice(0,1)" class="modal-paw"></div>
+				<div class="pawDiv-code"><input type="number" oninput="if(value.length>1)value=value.slice(0,1)" class="modal-paw"></div>
+			</div>
+			<div>
+				<button type="" class="send">发送验证码</button>
+			</div>
+		</div>
+	</div>
+	<!-- 短信验证码 -->
+	<script src='js/tel-code.js'></script>
+	<script src='js/my-car-details.js'></script>
+</body>
+</html>

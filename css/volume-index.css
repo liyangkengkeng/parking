@@ -1,0 +1,111 @@
+#header{
+	font-size: 1rem;
+	padding: 0vw 3vw;
+	border-bottom: 1px solid #e8e8e8;
+	height: 7vh;
+	line-height: 7vh;
+}
+#header img{
+	width: 1rem;
+	margin-right: 2vw;
+}#header a{
+	display: inline-block;width: 100%
+}
+.current{
+	padding-right: 2vw;flex-shrink: 0
+}
+.city{
+	color: #B3B3B3;
+	width: 100%
+}
+.city span{
+	color: #e8e8e8
+}
+footer{
+	justify-content: space-around;
+	height: 10vh;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+}
+.icon{
+	width: 10vw;text-align: center
+}
+.icon p:first-child{
+	height: 5vh;
+	line-height: 5vh
+}
+.icon img{
+	height: 6vw;display: block;
+}
+.icon p{
+	font-size: 12px;
+}
+
+article{
+	padding:3vh 3vw;
+	height: 83vh;
+	    overflow-y: scroll;
+}
+.volume-header{
+	text-align: center;
+	margin-bottom: 3vh
+}
+
+.card{
+	width: 90%;
+	margin:0vh auto 3vh;
+	padding: 2vw 3vw 3vw;
+	height: 25vh;
+	background: url(../img/volume-index.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	color: #fff;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+.card-header img{
+	height: 16px;
+    margin-bottom: -3px;
+	margin-right: 2vw;
+}
+.card-number{
+	font-size: 1.2rem;
+}
+.card-footer{
+	font-size: 14px;
+}
+
+.list{
+	border:1px solid #E8E8E8;
+	border-radius: 2vw;
+	padding: 2vw;
+	margin-bottom:2vh
+}
+.volume-img img{
+	width: 20vw;
+	margin-right: 2vw;display: block
+}
+.volume-data{
+	justify-content: space-between;
+	flex-direction: column;
+	font-size: 0.9rem
+}
+.money{
+	font-size: 1rem
+}
+.volume-time{
+	font-size: 10px;
+	display: inline-block;
+	color: #999999;
+}
+.buy{
+	border:1px solid #51C472;
+	border-radius: 2vw;
+}
+.buy a{
+	color: #51C472;font-size: 0.8rem
+}

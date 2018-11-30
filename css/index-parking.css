@@ -1,0 +1,69 @@
+#header{
+	font-size: 1rem;
+	padding: 0vw 3vw;
+	border-bottom: 1px solid #e8e8e8;
+	height: 7vh;
+	line-height: 7vh;
+}
+#header img{
+	width: 1rem;
+	margin-right: 2vw;
+}
+#header a{
+	display: inline-block;width: 100%
+}
+.current{
+	padding-right: 2vw;flex-shrink: 0
+}
+.city{
+	color: #B3B3B3;
+	width: 100%
+}
+.city span{
+	color: #e8e8e8
+}
+article{
+	padding:2vh 3vw;
+	overflow: hidden;
+}
+.header{
+	color: #b2b2b2;
+	margin:3vh 0vh;
+}
+.line{
+	display: inline-block;
+	width: 4vw;
+	border-top: 1px solid #e8e8e8;
+}
+.range{
+	padding: 0px 5vw;
+}
+.parking-data-box{
+	margin-bottom:2vh;
+	padding: 2vw;
+	border:1px solid #e8e8e8;
+}
+.parking-data img{
+	width: 20vw;display: block;margin-right: 2vw;
+}
+.data{
+	flex-direction: column;justify-content: space-around;
+}
+.payment{
+	background: #51C471;
+	margin:0px;
+}
+.colorA9{
+	color: #a9a9a9
+}
+.query{
+	width: 25vw;
+	height: 10vw;
+	text-align: center;
+	line-height: 10vw;
+	color: #fff;
+	border-radius: 3vw;
+}
+.query a{
+	color: #fff;
+}

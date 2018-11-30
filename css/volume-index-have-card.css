@@ -1,0 +1,30 @@
+
+.card-box{
+	/*-moz-transform: translateX(-77.5vw);
+	-o-transform: translateX(-77.5vw);
+	-ms-transform: translateX(-77.5vw);
+	-webkit-transform: translateX(-77.5vw);
+	transform: translateX(-77.5vw);*/
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+.volume .card{
+	height: 20vh;
+	width: 80vw;
+	flex-shrink: 0;
+	margin:0vh 2.5vw;
+	
+}
+.anim{
+	width: 100vw;
+	/*padding: 0vw 5vw;*/
+	margin-left: -3vw;
+	overflow: hidden;
+}
+.state{
+	color: #B2B2B2;
+	margin:1vh 0vh 3vh;
+}

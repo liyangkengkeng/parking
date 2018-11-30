@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>推荐停车场</title>
+	<script src="js/pace.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pace-theme-barber-shop.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index-parking.css">
+	<script src='http://api.map.baidu.com/api?v=2.0&ak=cjaMO2lnsh8qv8Kiacwe9F9kq5MASnH4'></script>
+</head>
+<body>
+	<header id="header" class="flex">
+		<div class="current flex al-ce">
+			<img src="img/city.png" alt="">
+			<span class="current-city">古蔺县</span>
+		</div>
+		<a href="address.html" title="">
+			<div class="city">
+				<span>|</span>&nbsp;切换地区
+			</div>
+		</a>
+	</header>
+	<article>
+		<div class="header flex al-ce ju-ce">
+			<span class="line"></span>
+			<span class="range">离你最近</span>
+			<span class="line"></span>
+		</div>
+		<div class="list-box">
+			<div class="parking-data-box flex ju-sb al-ce">
+				<div class="parking-data flex ">
+					<div><img src="img/parking-img.png" alt=""> </div>
+					<div class="data flex ">
+						<p>XXX停车路段</p>
+						<p class="colorA9">高新区-XXX路</p>
+						<p class="colorA9">距离您100米</p>
+					</div>
+				</div>
+				<div class="payment query">
+					<a href="index-map.html">导航</a>
+				</div>
+			</div>
+			<div class="parking-data-box flex ju-sb al-ce">
+				<div class="parking-data flex ">
+					<div><img src="img/parking-img.png" alt=""> </div>
+					<div class="data flex ">
+						<p>XXX停车路段</p>
+						<p class="colorA9">高新区-XXX路</p>
+						<p class="colorA9">距离您100米</p>
+					</div>
+				</div>
+				<div class="payment query">
+					<a href="index-map.html">导航</a>
+				</div>
+			</div>
+			<div class="parking-data-box flex ju-sb al-ce">
+				<div class="parking-data flex ">
+					<div><img src="img/parking-img.png" alt=""> </div>
+					<div class="data flex ">
+						<p>XXX停车路段</p>
+						<p class="colorA9">高新区-XXX路</p>
+						<p class="colorA9">距离您100米</p>
+					</div>
+				</div>
+				<div class="payment query">
+					<a href="index-map.html">导航</a>
+				</div>
+			</div>
+		</div>
+		<div class="header flex al-ce ju-ce">
+			<span class="line"></span>
+			<span class="range">所有停车场</span>
+			<span class="line"></span>
+		</div>
+	</article>
+	<script>
+        if(localStorage.getItem('city')){
+           document.getElementsByClassName('current-city')[0].innerText=city
+        }
+	</script>
+</body>
+</html>

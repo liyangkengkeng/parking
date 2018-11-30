@@ -1,0 +1,65 @@
+header{
+	height: 8vh;
+	justify-content: space-around;
+	border-bottom: 1px solid #E8E8E8;
+	margin-bottom: 2vh
+}
+header p{
+	height: 8vh;
+	line-height: 8vh
+}
+.line{
+	color: #E8E8E8
+}
+.border-sel{
+	border-bottom: 3px solid #67C1BF
+}
+.use, .invalid{
+	padding: 0vw 2vw;
+}
+
+.card-box{
+	background: #fff;
+	position: relative;
+}
+.card{
+	width: 90%;
+	margin:0vh auto 3vh;
+	padding: 2vw 3vw 3vw;
+	height: 25vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+.invalid-list .card{
+	background-image: url(../img/my-invalid-card.png)
+}
+.use-list .card{
+	background-image: url(../img/volume-index.png)
+}
+.card-header img{
+	height: 16px;
+    margin-bottom: -3px;
+	margin-right: 2vw;
+}
+.card-number{
+	font-size: 1.2rem;
+}
+.card-footer p{
+	font-size: 12px;
+}
+.number{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.invalid-icon{
+	width: 20vw;
+	position: absolute;
+	right: 7vw;
+	bottom: 2vw;
+}

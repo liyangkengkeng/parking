@@ -1,0 +1,74 @@
+
+.box{
+	padding: 3vw;
+}
+.no-payment{
+	margin:2vh 0vh;
+	text-align: center;
+}
+.list{
+	padding: 2vw;
+	margin-bottom: 2vh;
+	border:1px solid #e8e8e8;
+}
+.list img{
+	width: 20vw;
+    display: block;
+    margin-right: 2vw;
+}
+.parking-data{
+	width: 100%
+}
+.parking-number{
+	color: #999;
+}
+.parking-number p{
+	font-size: 0.8rem
+}
+.parking-name{
+	flex-direction: column;align-items: center;
+}
+.parking-name p:firt-child{
+	width: 35vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.number{
+	height: 11vw;
+	padding: 1vw;
+	border-radius: 2vw;
+	border:1px solid #000;
+}
+.number span{
+	width: 100%;height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	border-radius: 2vw;
+	padding: 0px 2vw;
+}
+.backgroundAAD{
+	background: #AAD7B6
+}
+.background026{
+	background: #026CB7
+}
+.query{
+	width: 25vw;
+	height: 10vw;
+	text-align: center;
+	line-height: 10vw;
+	color: #fff;
+	border-radius: 3vw;
+	background: #51C471
+}
+.query a{
+	color: #fff
+}
+
+.color67c{
+	color: #67C1BF;
+	text-align: center;
+}

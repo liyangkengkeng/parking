@@ -1,0 +1,15 @@
+header{
+	width: 80vw;
+	margin: 15vh auto 5vh;
+}
+header img{
+	width: 100%;
+}
+footer a{
+	display: inline-block;
+	padding:2vh 10vw;
+	background:#67C1BF;
+	color: #fff;
+	border-radius: 2vw;
+	margin-top: 10vh
+}

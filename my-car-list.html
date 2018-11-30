@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>我的</title>
+	<script src="js/pace.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pace-theme-barber-shop.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/my-car-list.css">
+</head>
+<body>
+	<div class='padding4 list-box'>
+		<div class='list padding4 flex ju-sb al-ce'>
+			<div class='flex al-ce ju-ce'>
+				<div class="img-box">
+					<img src="img/car-list.png" alt="">
+				</div>
+				<div class="flex ju-sb data">
+					<p class="number">川F123456</p>
+					<p class="time">绑定时间：</p>
+					<p class="time">2018/08/08</p>
+					<p class="frequency">已停车：100次</p>
+				</div>
+			</div>
+			<!-- 该车辆未绑定卡 -->
+			<a href="my-car-details.html" title="" class="hidden">
+				<div class="see">
+					查看
+				</div>
+			</a>
+			<!-- 该车辆绑定卡 -->
+			<a href="my-car-details-have-card.html" title="">
+				<div class="see">
+					查看
+				</div>
+			</a>
+		</div>
+		
+	</div>
+	<div class="add center">
+		<!-- 绑定车辆超过四两 -->
+		<a href="my-binding-car.html" title="" class=''>立即添加</a>
+		<!-- 未超过四辆 -->
+		<button type="" class='add-btn hidden'>立即添加</button>
+	</div>
+
+	<!-- 弹框 -->
+	<div class='upper-limit red center'>
+		添加车辆已达上限，最多可添加 4 辆！
+	</div>
+
+	<script src='js/my-car-list.js'></script>
+</body>
+</html>

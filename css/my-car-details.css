@@ -1,0 +1,199 @@
+.number{
+	height: 11vw;
+	padding: 1vw;
+	border-radius: 2vw;
+	border:1px solid #000;
+	margin: 0px;
+}
+.number span{
+	width: 100%;height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background: #026cb7;
+	border-radius: 2vw;
+	padding: 0px 2vw;
+	font-size: 1.2rem;
+}
+#header{
+	padding: 2vh 2vw;
+}
+.header-box{
+	border:1px solid #e8e8e8;
+	border-radius: 2vw;
+}
+.header-img{
+	width: 23vw;
+	height: 23vw;
+	margin-right: 2vw;
+	flex-shrink: 0;
+}
+.header-img img{
+	width: 100%;height: 100%;display: block;
+}
+.header-data{
+	height: 23vw;width: 100%;
+	flex-direction: column;
+}
+.header-data>div{
+	height: 100%;
+}
+.relieve{
+	height: 11vw;
+	line-height: 11vw;
+	padding: 0vw 5vw;
+	border-radius: 4vw;
+	border:1px solid #51C472;
+	color: #51C472
+}
+.car-data{
+	flex-direction: column;
+}
+.car-data p{
+	font-size: 12px;
+}
+.total-data>div{
+	height: 25vw;
+	width: 30vw;
+	border-radius: 5vw;
+	color: #fff;
+	flex-direction: column;
+}
+.total-data>div p:nth-child(2){
+	font-size: 1.2rem
+}
+.parking{
+	background: -webkit-linear-gradient(left, #51C471 , #5CC6A0); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #51C471, #5CC6A0); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #51C471, #5CC6A0); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #51C471 , #5CC6A0); /* 标准的语法（必须放在最后） */
+}
+.save{
+	background: -webkit-linear-gradient(left, #F85353 , #ED3C26); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #F85353, #ED3C26); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#F85353, #ED3C26); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #F85353 , #ED3C26); /* 标准的语法（必须放在最后） */
+}
+.coupon-card{
+	background: -webkit-linear-gradient(left, #67C1BF , #97D5DF); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #67C1BF, #97D5DF); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #67C1BF, #97D5DF); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #67C1BF , #97D5DF); /* 标准的语法（必须放在最后） */
+}
+.card{
+	width: 90%;
+	margin:3vh auto;
+	padding: 2vw 3vw 3vw;
+	height: 25vh;
+	background: url(../img/volume-index.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	position: relative;
+}
+.use-icon{
+	width: 20vw;
+    position: absolute;
+    left: 3vw;
+    bottom: 2vw;
+}
+.card-header img{
+	height: 16px;
+    margin-bottom: -3px;
+	margin-right: 2vw;
+}
+.card-number{
+	font-size: 1.2rem;
+}
+.card-footer{
+	font-size: 14px;
+}
+.buy a{
+	display: inline-block;
+	width: 50%;
+	padding: 2vh 0vw;
+	color: #fff;
+	background:#51C471;
+	border-radius: 2vh;
+}
+
+.car-img img{
+	width: 96vw;
+	height: 32vw;
+}
+.car-img p:first-child{
+	margin:2vh 0vh;
+}
+
+.confirm{
+	width: 80vw;
+	font-size: 1rem;
+	background:#fff;
+	padding: 2vh 2vw;
+	border-radius: 2vw;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: none
+}
+.yes,.no{
+	display: inline-block;
+	padding: 2vh 10vw;
+	background:#51C471;
+	border:0px;
+	border-radius: 2vw;
+	outline: none;
+	margin-top: 5vh;
+	color: #fff
+}
+.no{
+	background:#ccc;
+	margin-left: 2vh;
+}
+
+/*模态框*/
+.input{
+	margin:2vh 0vh 5vh;
+}
+ .input p{
+	width: 9vw;
+	height: 9vw;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 9vw;
+	margin-right: 2vw;
+ }
+.input input{
+	display: inline-block;
+	width: 9vw;
+	height: 9vw;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 9vw;
+}
+.input div{
+	margin-right: 2vw
+}
+.input div:last-child{
+	margin-right: 0vw;
+}
+.modal-code{
+	width: 80%;
+	border-radius: 2vw;
+}
+.close{
+	width: 5vw;
+}
+.tel{
+	font-size: 1.2rem;
+	margin:5vh 0vh;
+}
+.send{
+	border:0px;
+	background: transparent;outline: none
+}

@@ -1,0 +1,54 @@
+
+#header{
+	height: 15vh;
+	flex-direction: column;
+	padding: 0vw 4vw;
+}
+.often{
+	margin-top: 2vh
+}
+.often span{
+	display: inline-block;
+	width: 25vw;
+	padding: 1vh 0vw;
+	border:1px solid #D8D8D8;
+	border-radius: 2vw;
+}
+
+article{
+	height: 85vh;
+	position: relative;
+	padding: 0vw 6vw 0vw 4vw;
+}
+.nav{
+	position: absolute;
+	top: 0px;
+	right: 0vw;
+}
+.nav a{
+	display: inline-block;
+	color: #67C1BF;
+	width: 6vw;
+	text-align: center;
+}
+li{
+	list-style: none;
+	padding: 1vw;
+}
+.city-list{
+	height: 85vh;
+	overflow-y: scroll;
+}
+.city{
+	border-top: 1px solid #E8E8E8;
+	padding: 2vh 0vw;
+}
+.city p:first-child{
+	font-size: 1.2rem
+}
+.city p{
+	margin-bottom: 1vh;
+}
+.city p:last-child{
+	margin-bottom: 0px;
+}

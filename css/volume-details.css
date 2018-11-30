@@ -1,0 +1,166 @@
+.volume{
+	background: #F3F5F9;
+	height: 90vh;
+	overflow-y: scroll;
+}
+.card-box{
+	padding:2vh 0vw;
+	border-bottom: 1px solid #E8E8E8;
+	background: #fff;
+	position: relative;
+}
+.card{
+	width: 90%;
+	margin:0vh auto 3vh;
+	padding: 2vh 3vw 3vh;
+	height: 25vh;
+	background: url(../img/volume-index.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+.card-header img{
+	height: 16px;
+    margin-bottom: -3px;
+	margin-right: 2vw;
+}
+.card-number{
+	font-size: 1rem;
+}
+.card-footer{
+	font-size: 12px;
+}
+.card-footer div ,.card-footer p{
+	font-size: 12px;
+}
+.number{
+	font-size: 14px;
+	font-weight: bold;
+}
+.content{
+	font-size: 1rem;
+}
+.term{
+	font-size: 12px;
+	color: #A9A9A9
+}
+.term span{
+	font-size: 0.8rem
+}
+.buy{
+	height: 10vh;
+	border-top: 1px solid #E8E8E8;
+}
+.buy p{
+	width: 50vw;
+	height: 6vh;
+	line-height: 6vh;
+	margin: 2vh auto;
+	color: #fff;
+	border-radius: 6vh;padding: 0px 10px;
+}
+
+.present-price{
+	font-size: 1rem;margin-right: 2vw;
+}
+.original-price{
+	color: #A9A9A9;
+	text-decoration: line-through
+}
+.introduce-con{
+	color: #A9A9A9
+}
+
+.modal-number{
+	height: 11vw;
+	padding: 1vw;
+	border-radius: 2vw;
+	border:1px solid #000;
+}
+.modal-number span{
+	width: 100%;height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background: #026cb7;
+	border-radius: 2vw;
+	padding: 0px 2vw;
+}
+.invalid-icon{
+	width: 20vw;
+	position: absolute;
+	left: 7vw;
+	bottom: 7vh;
+}
+
+
+/*弹框*/
+.modal-box{
+	align-items: flex-end;
+}
+.modal{
+	height: 65vh;
+	width: 100%;
+	background: #fff;
+	padding: 3vh 5vw;
+}
+.modal-header{
+	/*margin-bottom:5vw;*/
+	height: 5vh;
+}
+.list-box{
+	height: 47vh;
+	overflow-y: scroll;
+}
+.list{
+	padding: 2vw;
+	border:1px solid #e8e8e8;
+	border-radius: 2vw;
+	margin-bottom: 2vw;
+}
+.list-name img{
+	width: 22vw;margin-right: 2vw;display: block
+}
+.car-data{
+	flex-direction: column;
+	justify-content: space-around;
+	height: 22vw;
+}
+.bindings{
+	color: #67C1BF
+}
+.bindings-time{
+	color: #a9a9a9;
+	margin-top: 2vw;
+}
+.modal-btn-box{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 10vh;
+	border-top: 1px solid transparent;
+}
+.modal-btn{
+	width: 50vw;
+	height: 6vh;
+	line-height: 6vh;
+	margin:2vh auto;
+	color: #fff;
+	border-radius: 6vh;
+}
+
+.unbound{
+	margin-top: 8vh;
+}
+.unbound a{
+	display: inline-block;
+	margin-top: 10vh;
+	padding: 1vh 5vw;
+	border:1px solid #000;
+	border-radius: 2vw;
+}

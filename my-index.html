@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>我的</title>
+	<script src="js/pace.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pace-theme-barber-shop.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/my-index.css">
+</head>
+<body>
+	<header id="header" class="center flex ju-ce al-ce">
+		<p class="my-photo"><img src="img/login-logo.png" alt=""></p>
+		<p class='my-name'><span>微信昵称</span></p>
+	</header>
+	<article>
+		<div class="record flex ju-sb marginB2 padding4 background-white">
+			<p>停车31次</p><p class="divide">|</p>
+			<p>节省：￥0</p><p class="divide">|</p>
+			<p>未付款：1</p>
+		</div>
+		<div class="my-data marginB2 background-white">
+			<!-- 未绑定手机号 -->
+			<a href="my-binding-tel.html" title="" class="flex ju-sb al-ce hidden">
+				<p class="flex ju-sb al-ce"><img src="img/my-tel.png" alt=""><span>我的手机号</span> </p>
+				<p class="state center">未绑定</p>
+			</a>
+			<!-- 已绑定手机号 修改手机号-->
+			<a href="my-modify-tel.html" title="" class="flex ju-sb al-ce">
+				<p class="flex ju-sb al-ce"><img src="img/my-tel.png" alt=""><span>我的手机号</span> </p>
+				<p class="state center">已绑定</p>
+			</a>
+		</div>
+		<div class="my-data marginB2 background-white">
+		<!-- 未绑定 -->
+			<a href="my-binding-car.html" title="" class="flex ju-sb al-ce">
+				<p class="flex ju-sb al-ce"><img src="img/my-record.png" alt=""><span>停车记录</span> </p>
+				<p class="state center">未绑定</p>
+			</a>
+		<!-- 已绑定 -->
+			<a href="index-my-parking.html" title="" class="flex ju-sb al-ce hidden">
+				<p class="flex ju-sb al-ce"><img src="img/my-record.png" alt=""><span>停车记录</span> </p>
+				<p class="state center">已绑定</p>
+			</a>
+		</div>
+		<div class="my-data marginB2 background-white">
+		<!-- 未绑定 -->
+			<a href="my-binding-car.html" title="" class="flex ju-sb al-ce hidden">
+				<p class="flex ju-sb al-ce"><img src="img/my-car.png" alt=""><span>我的车辆</span> </p>
+				<p class="state center">未绑定</p>
+			</a>
+			<!-- 已绑定 -->
+			<a href="my-car-list.html" title="" class="flex ju-sb al-ce">
+				<p class="flex ju-sb al-ce"><img src="img/my-car.png" alt=""><span>我的车辆</span> </p>
+				<p class="state center">已绑定</p>
+			</a>
+		</div>
+		<div class="my-data marginB2 background-white">
+			<a href="my-wallet.html" title="" class="flex ju-sb al-ce">
+				<p class="flex ju-sb al-ce"><img src="img/my-wallet.png" alt=""><span>我的钱包</span> </p>
+				<p class="state center">1</p>
+			</a>
+		</div>
+		<div class="my-data marginB2 background-white">
+			<a href="my-recharge-record.html" title="" class="flex ju-sb al-ce">
+				<p class="flex ju-sb al-ce"><img src="img/my-recharge.png" alt=""><span>充值记录</span> </p>
+				<p class="state center">2</p>
+			</a>
+		</div>
+	</article>
+	<footer class="flex al-ce">
+		<div class="icon">
+				<a href="index.html" title="">
+					<p class="flex ju-ce al-ce"><img src="img/index.png" alt=""></p>
+					<p>首页</p>
+				</a>
+			</div>
+			<div class="icon">
+				<!-- 未购买 -->
+				<a href="volume-index.html" title="" class="hidden">
+					<p class="flex ju-ce al-ce"><img src="img/volume.png" alt=""></p>
+					<p>优惠</p>
+				</a>
+				<!-- 已购买 -->
+				<a href="volume-index-have-card.html" title="">
+					<p class="flex ju-ce al-ce"><img src="img/volume.png" alt=""></p>
+					<p>优惠</p>
+				</a>
+			</div>
+			<div class="icon">
+				<a href="my-index.html" title="">
+					<p class="flex ju-ce al-ce"><img src="img/my-cur.png" alt=""></p>
+					<p class="color">我的</p>
+				</a>
+			</div>
+	</footer>
+</body>
+</html>

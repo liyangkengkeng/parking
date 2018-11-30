@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Hellow Parking 海螺停车</title>
+	<script src="js/pace.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pace-theme-barber-shop.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src='js/ajax.js'></script>
+</head>
+<body>
+	<header id="header" class="flex">
+		<div class="current flex al-ce">
+			<img src="img/city.png" alt="">
+			<span class="current-city">古蔺县</span>
+		</div>
+		<a href="address.html" title="">
+			<div class="city">
+				<span>|</span>&nbsp;切换地区
+			</div>
+		</a>
+	</header>
+	<article>
+		<div>
+			<div class="show-img">
+				<img src="img/header.png" alt="">
+			</div>
+			<div class="jump-img flex">
+				<a href="index-check.html"><img src="img/check.png" alt=""></a>
+				<!-- <a href="index-parking.html"><img src="img/parking.png" alt=""></a> -->
+				<a href="javascript:void(0)"><img src="img/parking.png" class='look' alt=""></a>
+			</div>
+			<div class="show-img">
+				<!-- 未登录 -->
+				<img src="img/footer.png" alt="">
+				<!-- 已登录 -->
+				<img src="img/sign-footer.png" alt="" class="hidden">
+			</div>
+			<!-- 已登录 (未登录class=hidden)-->
+			<div class="my-data">
+				<a href="index-my-parking.html" title="">已停车 &nbsp;3&nbsp; 次</a>
+				<a href="index-my-parking.html" title="" class="unpaid">未付款 &nbsp;3&nbsp; 次</a>
+			</div>
+		</div>
+	</article>
+	<footer class="flex al-ce">
+			<div class="icon">
+				<a href="index.html" title="">
+					<p class="flex ju-ce al-ce"><img src="img/index-cur.png" alt=""></p>
+					<p class="color">首页</p>
+				</a>
+			</div>
+			<div class="icon">
+				<!-- 未购买 -->
+				<a href="volume-index.html" title="" class="hidden">
+					<p class="flex ju-ce al-ce"><img src="img/volume.png" alt=""></p>
+					<p>优惠</p>
+				</a>
+				<!-- 已购买 -->
+				<a href="volume-index-have-card.html" title="">
+					<p class="flex ju-ce al-ce"><img src="img/volume.png" alt=""></p>
+					<p>优惠</p>
+				</a>
+			</div>
+			<div class="icon">
+				<a href="my-index.html" title="">
+					<p class="flex ju-ce al-ce"><img src="img/my.png" alt=""></p>
+					<p>我的</p>
+				</a>
+			</div>
+	</footer>
+	<div class="navigation">
+		<img src="img/look.png" alt="" style='width:100%;height:100%'>
+		<button type="" class="know">知道了</button>
+	</div>
+	<script src='js/location.js'></script>
+	<script src='js/index.js'></script>
+</body>
+</html>

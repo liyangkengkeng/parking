@@ -1,0 +1,25 @@
+
+.header{
+	padding:2vh 0vh;
+	background:#F3F5F9;
+	color: #A0A0A0
+}
+.list{
+	border:1px solid #e8e8e8;
+	border-radius: 2vw;
+}
+.list>div p:first-child{
+  max-width: 60vw;
+ word-wrap:break-word
+}
+.list>div:first-child p:nth-child(2){
+	margin-bottom: 1vh
+}
+.list span{
+	font-size: 12px;
+}
+.money{
+	width: 23vw;text-align: center;
+	border-left: 1px solid #e8e8e8;
+	padding:2vw 0px;
+}
